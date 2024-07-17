@@ -11,11 +11,11 @@ Resultdo2 = io.read()
 pessoa(Resultdo1, Resultdo2)
 
 
-local soma = function (primeiro, segundo)
+Resposta = function (primeiro, segundo)
     return primeiro + segundo
 end
 
-print(soma(10, 11))
+print(Resposta(10, 11))
 
 function soma(valor1, valor2)
     return valor1 + valor2
