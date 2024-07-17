@@ -1,0 +1,16 @@
+--[[nome = "matheus"
+sobrenome = "oliveira"
+idade = 25
+
+print(nome,sobrenome)
+print(string.format("nome: %s %s idade: %s", nome, sobrenome, idade)) ]]
+
+Empresa1 = "Três rios"
+Empresa2 = "Três Irmãos"
+salario = 1300
+salario1 = 1800 
+salario2 = 1500
+
+
+print("As empresas " .. Empresa1, Empresa2 .. " tem salário de " .. salario .. " Reais")
+print(string.format("A empresa %s aumentou o salário para %s, já a empresa %s aumentou o salário para %s", Empresa2, salario2, Empresa1, salario1)) 
